@@ -5,6 +5,6 @@ Primeiro projeto HTML e CSS para o portfólio.
 
 * Inclusão de favicon.
 
-**`ATUALIZAÇÕES ANTERIOSRES`**
+**`ATUALIZAÇÕES ANTERIORES`**
 
 * Início do projeto.
