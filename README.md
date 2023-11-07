@@ -3,8 +3,8 @@ Primeiro projeto HTML e CSS para o portfólio.
 
 **`ATUALIZAÇÕES RECENTES`**
 
-* Inclusão de favicon.
+* Criação da página "sobre a loja" e estilização da mesma.
 
 **`ATUALIZAÇÕES ANTERIORES`**
 
-* Início do projeto.
+* Inclusão de favicon.

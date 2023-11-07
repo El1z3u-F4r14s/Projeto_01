@@ -7,18 +7,49 @@
 header {
     padding: 16px 0;
     background-color: #D2691E;
-    color: #ffffff;
+    color: #fcfcfc;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header,
+section h2 {
+    font-family: 'Changa', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 27px;
 }
 
+/*
+Separador de links (desativado)
+
+li:before {
+    content: " | ";
+}
+
+li:first-child:before {
+    content: none;
+}
+*/
+
 header nav li a {
-    color: #ffffff;
+    color: #fcfcfc;
     text-decoration: none;
+}
+
+/*Alternância de cor em links*/
+a:hover {
+    text-decoration: color;
+    color: #FFDAB9
 }
 
 .container {
@@ -27,8 +58,43 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.fachada-loja {
+    height: 300px;
+    margin-right: 32px;
+    border-radius: 5px;
+}
+
+.lista-marcas img {
+    height: 42px;
+    margin-top: 30px;
+}
+
+.lista-marcas li {
+    display: inline;
+    margin-right: 13px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #D2691E;
+    font-size: 27px;
+}
+
+section p {
+    margin-bottom: 8px;
 }
