@@ -33,17 +33,15 @@ header nav li {
     font-size: 27px;
 }
 
-/*
-Separador de links (desativado)
-
-li:before {
+/*Inserção de separador entre links*/
+header nav li:before {
     content: " | ";
 }
 
-li:first-child:before {
+/*Remoção do separador antecedente ao primeiro link*/
+header nav li:first-child:before {
     content: none;
 }
-*/
 
 header nav li a {
     color: #ffffff;
@@ -51,26 +49,26 @@ header nav li a {
 }
 
 /*Alternância de cor em links*/
-a:hover {
+header nav li a:hover {
     text-decoration: color;
     color: #FFDAB9
 }
 
 .container {
     max-width: 1280px;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
-header .container,
-section .container {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 section .container {
-    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
 }
 
 .fachada-loja {
@@ -86,7 +84,7 @@ section .container {
 
 .lista-marcas li {
     display: inline;
-    margin-right: 13px;
+    margin-right: 45px;
 }
 
 section {
@@ -103,6 +101,7 @@ section h3 {
 section p {
     margin-bottom: 8px;
     text-align: justify;
+    max-width: 450px;
 }
 
 .redes-sociais img {
@@ -140,7 +139,7 @@ form button {
 
 form textarea {
     resize: none;
-    height: 180px;
+    height: 100px;
 }
 
 section h3 {
@@ -176,5 +175,5 @@ footer {
 
 iframe {
     max-width: 415px;
-    max-height: 340px;
+    max-height: 263px;
 }
