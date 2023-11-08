@@ -7,7 +7,7 @@
 header {
     padding: 16px 0;
     background-color: #D2691E;
-    color: #fcfcfc;
+    color: #ffffff;
 }
 
 header h1 {
@@ -15,12 +15,16 @@ header h1 {
 }
 
 header,
-section h2 {
+section h2,
+section h3 {
     font-family: 'Changa', sans-serif;
 }
 
-body {
+body,
+input,
+textarea {
     font-family: 'Roboto', sans-serif;
+    background-color:#ffffff;
 }
 
 header nav li {
@@ -42,7 +46,7 @@ li:first-child:before {
 */
 
 header nav li a {
-    color: #fcfcfc;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -89,7 +93,8 @@ section {
     padding: 24px 0;
 }
 
-section h2 {
+section h2,
+section h3 {
     margin-bottom: 16px;
     color: #D2691E;
     font-size: 27px;
@@ -97,4 +102,79 @@ section h2 {
 
 section p {
     margin-bottom: 8px;
+    text-align: justify;
+}
+
+.redes-sociais img {
+    height: 37px;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-right: 27px;
+}
+
+.redes-sociais li a {
+    text-decoration: none;
+}
+
+#contato .container {
+    display: block;
+}
+
+.metodos-contato {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #D2691E;
+    color: #ffffff;
+    font-family: 'Changa', sans-serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Alternância da cor no botão*/
+form button:hover {
+    background-color: #e08848;
+}
+
+/*Alternância da cor quando selecionar caixa de texto*/
+input:focus, textarea:focus {
+    outline-color: #8a420f;
+}
+
+/*Modificando rodapé*/
+footer {
+    background-color: #D2691E;
+    padding: 16px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+iframe {
+    max-width: 415px;
+    max-height: 340px;
 }

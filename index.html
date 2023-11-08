@@ -6,9 +6,9 @@
     <title>Apolo Games | O melhor do mundo gamer</title> <!--Titulo da página-->
     <link rel="shortcut icon" href="_imagens/apolo_games_icon.png"> <!--Inclusão de icone da página-->
     <link rel= "stylesheet" href="main.css"> <!--Link de acesso para o arquivo CSS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Inclusão de fonte personalizada so Google-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Inclusão de fonte personalizada so Google-->
-    <link href="https://fonts.googleapis.com/css2?family=Changa&family=Roboto&display=swap" rel="stylesheet"> <!--Inclusão de fonte personalizada so Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Inclusão de fonte personalizada do Google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Inclusão de fonte personalizada do Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Changa&family=Roboto&display=swap" rel="stylesheet"> <!--Inclusão de fonte personalizada do Google-->
 </head>
 <body>
     <header>
@@ -17,20 +17,20 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Conheça a loja</a>
+                        <a href="#about">CONHEÇA A LOJA</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contato">CONTATO</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
             <img class="fachada-loja" src="./_imagens/loja.jpg" alt="Fachada da loja Apolo Games" />
             <div>
-                <h2>Conheça a loja</h2>
+                <h2>SOBRE NÓS...</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit est officiis, ipsum rerum eius atque rem esse aliquam! Itaque id tenetur iste vitae amet ab alias in excepturi delectus animi.
                 </p>
@@ -45,5 +45,52 @@
             </div>
         </div>
     </section>
+    <section id="contato">
+        <div class="container">
+            <div class="metodos-contato">
+                <div>
+                    <h3>FALE CONOSCO</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>FIQUE POR DENTRO</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.instagram.com/edfarias_writer/" title="Siga-nos no Instagram"></a>
+                                <img src="/_imagens/instagram.png" alt="Logo do Instagram" />
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/EdFariasWriter" title="Siga-nos no Facebook"></a>
+                                <img src="/_imagens/facebook.png" alt="Logo do Facebook" />
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/" title="Visite nosso canal no Youtube"></a>
+                                <img src="/_imagens/youtube.png" alt="Logo do Youtube" />
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>VENHA ATÉ NÓS</h3>
+                    <p>
+                        Rua de Lugar Nenhum, s/n, Quadrante 1604, Planeta 1.998
+                    </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d113633.16902669615!2d-109.35704136054548!3d-27.123659290865614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1699407438539!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Apolo Games - Todos os direitos reservados | 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

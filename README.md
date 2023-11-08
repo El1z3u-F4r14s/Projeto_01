@@ -3,8 +3,9 @@ Primeiro projeto HTML e CSS para o portfólio.
 
 **`ATUALIZAÇÕES RECENTES`**
 
-* Criação da página "sobre a loja" e estilização da mesma.
+* Criação do conteúdo de "contato" e estilização do mesmo.
 
 **`ATUALIZAÇÕES ANTERIORES`**
 
 * Inclusão de favicon.
+* Criação do conteúdo "sobre a loja" e estilização do mesmo.
